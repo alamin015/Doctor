@@ -20,6 +20,8 @@ body{
 }
 h1,h2,h3,h4,h5,h6{ 
     font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #104C7B;
 }
 #hero .hero_content{
     font-size: 50px;
@@ -112,4 +114,45 @@ h1,h2,h3,h4,h5,h6{
     #hero .responsive_input_group{
         margin-bottom: 8px;
     }
+}
+
+
+
+/* Provide section css  */
+
+#provide{
+    padding: 80px 0px;
+    background : #fff; 
+}
+
+#provide .provide_grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(170px,1fr));
+    grid-gap : 15px;
+}
+
+#provide .provide_grid .provide_grid_item{
+    padding: 15px;
+}
+
+#provide .provide_grid_img{
+    width: 55px;
+    height: 55px;
+    background : #fff;
+    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.133);
+    line-height: 55px;
+    margin: 0px auto;
+    border-radius: 8px;
+    margin-bottom: 18px;
+}
+#provide .provide_grid_img img{
+    width: 30px;
+}
+
+#provide .provide_grid .provide_grid_item h4{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+#provide .provide_grid .provide_grid_item p{
+    font-size: 15px;
 }
