@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Raleway:ital,wght@0,300;0,400;0,500;0,700;1,600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    width: 100%;
+    overflow-x: hidden;
+}
+#hero{
+    background : url('img/BG.png') no-repeat center / cover;
+    width: 100%;
+    /* height: 100vh; */
+    padding : 100px 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{ 
+    font-family: 'Raleway', sans-serif;
+}
+#hero .hero_content{
+    font-size: 50px;
+    font-weight: 700;
+    color: #104C7B;
+    margin-bottom: 20px;
+}
+
+#hero .hero_para{
+    color: #788E9F;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+#hero .input-group{
+    background : #fff !important;
+}
+
+#hero .input-group{
+    background: #fafafa !important;
+}
+
+#hero .input-group input{
+    background: transparent;
+    outline : none;
+    border: none;
+    font-size: 13px;
+}
+#hero .card-body{
+    background : #fff;
+}
+#hero .input_row{
+    background : #fafafa;
+    padding: 6px;
+    
+}
+#hero input{
+    background: #fafafa !important;
+}
+
+#hero .my_btn{
+    border-radius: 30px;
+    padding: 8px 25px;
+    background: #2196F3;
+    border: none;
+    outline : none;
+    color: #fff;
+}
+
+#hero .hero_box{
+    width: 100%;
+    padding: 20px 5px;
+    vertical-align: middle;
+    background: rgba(255, 255, 255, 0.338);
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.21);
+}
+#hero .hero_box h5{
+    padding: 0;
+    margin-bottom: 3px;
+    color: #1B172D;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+#hero .hero_box p{
+    padding: 0;
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+
+
+@media (max-width : 767px){
+    .hero_grid_box{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(130px,1fr));
+        grid-gap: 10px;
+    }
+}
+
+@media (max-width : 575px){
+    #hero .hero_content{
+        font-size: 40px;
+    }
+    #hero .input_row{
+        background : #fff;
+    }
+    #hero .responsive_input_group{
+        margin-bottom: 8px;
+    }
+}
