@@ -134,7 +134,9 @@ h1,h2,h3,h4,h5,h6{
 #provide .provide_grid .provide_grid_item{
     padding: 15px;
 }
-
+#provide .provide_grid .provide_grid_item:hover{
+    box-shadow: 3px 3px 13px #2195f31f;
+}
 #provide .provide_grid_img{
     width: 55px;
     height: 55px;
