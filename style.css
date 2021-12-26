@@ -261,3 +261,87 @@ h1,h2,h3,h4,h5,h6{
 #provide .provide_grid .provide_grid_item p{
     font-size: 15px;
 }
+
+
+
+/* single_doctor CSS START  */
+
+
+#single_doctor{
+    background : #fafafa;
+    padding: 80px 0;
+    /* padding-bottom: 90px; */
+}
+.single_doctor_left{
+    background: url("img/single-doctor.png") no-repeat center / cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.single_doctor_left .img_desc{
+    background: #fff;
+    padding: 13px;
+    box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    /* margin-top: -30px; */
+    z-index: 10;
+    position: absolute;
+    left: 0;
+    bottom: -50px;
+    width: 100%;
+}
+.single_doctor_left .img_desc_width{
+    width: 80%;
+    margin: 0 auto;
+}
+.single_doctor_left .img_desc h4{
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.single_doctor_left .img_desc p{
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+.sigle_doctor_right h2{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+
+.sigle_doctor_right .flex_item .doctor_flex_icon{
+    
+    margin: 0px 15px 10px 0px;
+    
+    
+}
+.sigle_doctor_right .flex_item .doctor_flex_icon span{
+    background: #fff;
+    display: inline-block;
+    width : 45px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 7px;
+    box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.2);
+}
+.sigle_doctor_right .flex_item .doctor_flex_icon span img{
+    width : 22px;
+}
+.sigle_doctor_right .flex_item h4{
+    font-size: 18px;
+    
+}
+.sigle_doctor_right .flex_item p{
+    font-size: 15px;
+    color :#1B172D;
+}
+
+/* slider css  */
+
+
+#slider{
+    width: 100%;
+    height: 100vh;
+    background: rgba(255, 0, 179, 0.185);
+}
