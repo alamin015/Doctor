@@ -23,6 +23,84 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 700;
     color: #104C7B;
 }
+
+
+
+
+
+
+/* HEADER SECTION CSS START  */
+
+#header .make_btn{
+    border: 1px solid #2196F3;
+    color: #2196F3;
+    border-radius: 30px;
+    background: transparent;
+    padding: 8px 20px;
+    outline : none;
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+#header ul li{
+    position: relative;
+    margin-right: 8px;
+    transition: 3s;
+    display: inline-block;
+}
+#header ul li a{
+    color : #104C7B;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+#header ul li a::after{
+    content : '';
+    display : block;
+    position: absolute;
+    right: 50%;
+    bottom: 3px;
+    background: #104C7B;
+    width: 0%;
+    height: 4px;
+    transition: 0.5s;
+}
+#header ul li a::before{
+    content : '';
+    display : block;
+    position: absolute;
+    left: 50%;
+    bottom: 3px;
+    background: #104C7B;
+    width: 0%;
+    height: 4px;
+    transition: 0.5s;
+}
+
+#header ul li:hover a::after{
+    content : '';
+    display : block;
+    position: absolute;
+    right: 50%;
+    bottom: 3px;
+    background: #104C7B;
+    width: 50%;
+    height: 4px;
+}
+#header ul li:hover a::before{
+    content : '';
+    display : block;
+    position: absolute;
+    left: 50%;
+    bottom: 3px;
+    background: #104C7B;
+    width: 50%;
+    height: 4px;
+}
+
+/* HERO SECTIO  CSS  */
+
+
 #hero .hero_content{
     font-size: 50px;
     font-weight: 700;
