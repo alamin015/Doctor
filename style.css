@@ -30,7 +30,18 @@ h1,h2,h3,h4,h5,h6{
 
 
 /* HEADER SECTION CSS START  */
-
+#header{
+    background : white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index : 9999;
+    transition: 0.5s;
+}
+#header.active{
+    box-shadow : 3px 3px 12px rgba(0, 0, 0, 0.15);
+}
 #header .make_btn{
     border: 1px solid #2196F3;
     color: #2196F3;
