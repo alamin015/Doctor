@@ -122,8 +122,8 @@ h1,h2,h3,h4,h5,h6{
     background : url('img/BG.png') no-repeat center / cover;
     margin-top: 59px;
     width: 100%;
-    /* background: red; */
-    padding : 100px 0;
+    padding-top : 120px;
+    padding-bottom: 100px;
 }
 
 #hero .hero_content{
