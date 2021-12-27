@@ -337,6 +337,65 @@ h1,h2,h3,h4,h5,h6{
 #slider{
     width: 100%;
     padding: 80px 0px;
-    background: rgba(255, 0, 179, 0.185);
+    /* background: rgba(255, 0, 179, 0.185); */
 }
 
+#slider .carousel_item{
+    margin: 0px 15px;
+}
+
+#slider .owl_item{
+    border: 1px solid #2195f349;
+    padding-bottom: 25px;
+}
+#slider .owl_item h4{
+    font-size: 18px;
+    margin: 20px 0px 10px 0px;
+}
+#slider .owl_item p{
+    font-size: 15px;
+    color: #1B172D;
+    margin: 8px 0px;
+}
+#slider .slider_btn{
+    border: 1px solid #2196F3;
+    color : #104C7B;
+    font-size: 15px;
+    transition: 0.4s;
+}
+#slider .slider_btn:hover{
+    background: #2196F3;
+    color: #fafafa;
+}
+
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled{
+    display: block;
+}
+
+#slider .owl-prev{
+    position : absolute;
+    left: 0;
+    top: 50%;
+    transform : translateY(-50%);
+}
+
+#slider .owl-next{
+    position : absolute;
+    right: 0;
+    top: 50%;
+    transform : translateY(-50%);
+
+}
+
+#slider .owl-next span,
+#slider .owl-prev span{
+    font-size: 30px;
+    background: #2196F3;
+    color : #fff;
+    border-radius: 50%;
+    display: inline-block;
+    width : 25px;
+    height: 25px;
+    line-height: 20px;
+    text-align: center;
+}
