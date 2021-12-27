@@ -271,13 +271,11 @@ h1,h2,h3,h4,h5,h6{
 #single_doctor{
     background : #fafafa;
     padding: 60px 0;
-    /* padding-bottom: 90px; */
 }
 .single_doctor_left .doctor_img_left{
     background: url("img/single-doctor.png") no-repeat top / cover;
     width: 100%;
     height: 300px;
-    /* padding-top: 20px; */
 }
 .single_doctor_left .img_desc{
     background: #fff;
@@ -285,7 +283,6 @@ h1,h2,h3,h4,h5,h6{
     box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     margin-top: -30px;
-    /* z-index: 10; */
 }
 .single_doctor_left .img_desc_width{
     width: 80%;
