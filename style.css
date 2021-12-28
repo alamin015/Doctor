@@ -47,7 +47,12 @@ h1,h2,h3,h4,h5,h6{
     outline : none;
     font-size: 15px;
     font-weight: 400;
+    transition: 0.4s;
     
+}
+#header .make_btn:hover{
+    color : #fff;
+    background: #2196F3;
 }
 #header ul li{
     
@@ -436,4 +441,13 @@ h1,h2,h3,h4,h5,h6{
 #BG .bg_text_left button:hover{
     background: #fff;
     color : #2196F3;
+
 }
+
+#foul{
+    width : 100%;
+    height: 100vh;
+    background : rgb(159, 133, 218);
+}
+
+ 
