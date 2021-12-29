@@ -43,6 +43,11 @@ $(document).ready(function(){
             dots : true,
             loop : true,
         },
+        500:{
+            items:2,
+            dots : true,
+            loop : true,
+        },
         600:{
             items:3,
             dots : true,
