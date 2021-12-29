@@ -1,7 +1,7 @@
 // carousel slide call 
 
 $(document).ready(function(){
-    $(".owl-carousel").owlCarousel({
+    $(".carousel1").owlCarousel({
         loop : true,
         autoplay:true,
         autoplayTimeout:3000,
@@ -22,6 +22,35 @@ $(document).ready(function(){
         1000:{
             items:3,
             nav:true,
+            loop:true
+        }
+    }
+    });
+
+
+
+    $(".carousel2").owlCarousel({
+        loop : true,
+        autoplay:true,
+        autoplayTimeout:3000,
+        // nav : true,
+        dots : true,
+        autoplayHoverPause:true,
+        // responsiveClass:true,
+        responsive:{
+        0:{
+            items:1,
+            dots : true,
+            loop : true,
+        },
+        600:{
+            items:3,
+            dots : true,
+            loop : true,
+        },
+        1000:{
+            items:4,
+            dots : true,
             loop:true
         }
     }

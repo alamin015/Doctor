@@ -444,10 +444,49 @@ h1,h2,h3,h4,h5,h6{
 
 }
 
-#foul{
-    width : 100%;
-    height: 100vh;
-    background : rgb(159, 133, 218);
+/* PHARMACY SECTION CSS CODE  */
+#pharmacy{
+    padding: 50px 0px;
+}
+#pharmacy .carousel_item{
+    margin: 0px 12px;
+    border-radius: 5px;
+}
+#pharmacy .owl_item{
+    background : #104d7b09;
+    padding-bottom: 10px;
+    border-radius: 5px;
+
+}
+#pharmacy .owl_item h4{
+    font-size: 18px;
+    margin: 10px 0px;
+}
+#pharmacy .owl_item p{
+    font-size: 14px;
+    margin-top: 2px;
 }
 
- 
+#pharmacy .owl-dots{
+    text-align: center;
+    /* background :  red; */
+}
+
+#pharmacy .owl-dot{
+    width : 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #18161642;
+    margin: 0px 3px;
+    transition: 0.3s;
+}
+
+#pharmacy .owl-dot.active{
+    width: 8px;
+    height: 8px;
+    background: #2196F3;
+}
+
+#pharmacy .owl-nav{
+    display: none;
+}
